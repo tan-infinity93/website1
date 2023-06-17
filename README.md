@@ -2,6 +2,18 @@
 
 Airspace is a clean, unique, and free bootstrap website template. The template is built with refined business as well as corporate elements and saturated with rich typography, allowing to convey a perfect message to the first visit according to the niche motto.
 
+// Sample Websites:
+
+https://themewagon.github.io/Nimo/index.html
+https://themewagon.github.io/keto/index.html
+https://themewagon.github.io/delfood/
+https://themewagon.github.io/small-apps/
+https://themewagon.github.io/quickloud/
+https://bootstrapmade.com/demo/TheEvent/
+http://preview.themeforest.net/item/trekeetours-travels-agency-figma-template/full_screen_preview/45968590
+https://preview.themeforest.net/item/travilo-tours-and-travel-agency-html-template/full_screen_preview/44566033
+
+
 <!-- demo -->
 ## Example Site
 
@@ -123,3 +135,4 @@ Some third-party plugins that we used to build this template. Please check their
 * **Slick**: <https://kenwheeler.github.io/slick/>
 * **Shuffle**: <https://vestride.github.io/Shuffle/>
 * **SyoTimer**: <http://syomochkin.xyz/folio/syotimer/demo.html>
+
