@@ -44,13 +44,14 @@
 <body id="body">
 
 <!-- Header Start -->
-<header class="navigation">
+<header class="navigation navigation-custom">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
 				<nav class="navbar navbar-expand-lg p-0">
-					<a class="navbar-brand" href="index.html">
-						<img src="images/transtork-logo.jpg" alt="Logo" width="151" height="51">
+					<a class="navbar-brand navbar-brand-custom" href="index.html">
+						<img src="images/transtork-logo.jpg" alt="Logo" width="181" height="71">
+            <!-- <img src="images/updated-logo.png" alt="Logo" width="151" height="51"> -->
 					</a>
 
 					<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,20 +61,31 @@
 					<div class="collapse navbar-collapse ml-auto" id="navbarsExample09">
 						<ul class="navbar-nav ml-auto">
 							<li class="nav-item active">
-								<a class="nav-link" href="index.html">Home</a>
+								<a class="nav-link nav-link-custom" href="index.html">Home</a>
 							</li>
-              <li class="nav-item @@service"><a class="nav-link" href="products.html">Products</a></li>
-              <li class="nav-item @@service"><a class="nav-link" href="infrastructure.html">Infrastructure</a></li>
-              <li class="nav-item @@service"><a class="nav-link" href="service.html">Services & Support</a></li>
-              <li class="nav-item @@contact"><a class="nav-link" href="about.html">About Us</a></li>
-              <li class="nav-item @@contact"><a class="nav-link" href="contact.html">Contact Us</a></li>
+              <li class="nav-item @@contact">
+                <a class="nav-link nav-link-custom" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item @@service">
+                <a class="nav-link nav-link-custom" href="products.html">Products</a>
+              </li>
+              <li class="nav-item @@service">
+                <a class="nav-link nav-link-custom" href="infrastructure.html">Infrastructure</a>
+              </li>
+              <li class="nav-item @@service">
+                <a class="nav-link nav-link-custom" href="service.html">Services & Support</a>
+              </li>
+              <li class="nav-item @@contact">
+                <a class="nav-link nav-link-custom" href="contact.html">Contact Us</a>
+              </li>
 						</ul>
 					</div>
 				</nav>
 			</div>
 		</div>
 	</div>
-</header><!-- header close -->
+</header>
+<!-- header close -->
 
 <section class="page-title bg-2">
   <div class="container">
@@ -94,16 +106,16 @@
       	<div class="tabCommon">
 					<ul class="nav nav-tabs" id="myTab" role="tablist">
 						<li class="nav-item" role="presentation">
-							<a class="nav-link active" id="service-tab" data-toggle="tab" href="#service" role="tab" aria-controls="service" aria-selected="true">Service</a>
+							<a class="nav-link nav-link-service-custom active" id="service-tab" data-toggle="tab" href="#service" role="tab" aria-controls="service" aria-selected="false"><h3>Service</h3></a>
 						</li>
 						<li class="nav-item" role="presentation">
-							<a class="nav-link" id="support-tab" data-toggle="tab" href="#support" role="tab" aria-controls="support" aria-selected="false">Support</a>
+							<a class="nav-link nav-link-service-custom" id="support-tab" data-toggle="tab" href="#support" role="tab" aria-controls="support" aria-selected="false"><h3>Support</h3></a>
 						</li>
 						<li class="nav-item" role="presentation">
-							<a class="nav-link" id="faq-tab" data-toggle="tab" href="#faq" role="tab" aria-controls="faq" aria-selected="false">FAQ's</a>
+							<a class="nav-link nav-link-service-custom" id="faq-tab" data-toggle="tab" href="#faq" role="tab" aria-controls="faq" aria-selected="false"><h3>FAQ's</h3></a>
 						</li>
 						<li class="nav-item" role="presentation">
-							<a class="nav-link" id="downloads-tab" data-toggle="tab" href="#downloads" role="tab" aria-controls="downloads" aria-selected="false">downloads</a>
+							<a class="nav-link nav-link-service-custom" id="downloads-tab" data-toggle="tab" href="#downloads" role="tab" aria-controls="downloads" aria-selected="false"><h3>downloads</h3></a>
 						</li>
 					</ul>
 					<div class="tab-content" id="myTabContent">
@@ -175,7 +187,7 @@
 											  <input name="user_page" type="text" class="form-control" placeholder="" value="service">
 											</div>
 											<div class="form-group">
-												<button id="submitservice" type="submit" class="btn btn-info">Submit</button>
+												<button id="submitservice" type="submit" class="btn red-text-black-bg-btn btn-lg">Submit</button>
 											</div>
 										</div>
 								</div>
@@ -283,139 +295,88 @@
   </div>
 </section>
 
-<!-- <section class="service-about section">
-	<div class="container">
-		<div class="row align-items-center text-center text-lg-left">
-			<div class="col-lg-6">
-				<h2>Creative UX/UI Design Agency</h2>
-				<p class="mt-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate soluta corporis odit, optio cum! Accusantium numquam ab, natus excepturi architecto earum ipsa aliquam, illum, omnis rerum, eveniet officia nihil. Eum quod iure nulla, soluta architecto distinctio. Nesciunt odio ullam expedita, neque fugit maiores sunt perferendis placeat autem animi, nihil quis suscipit quibusdam ut reiciendis doloribus natus nemo id quod illum aut culpa perspiciatis consequuntur tempore? Facilis nam vitae iure quisquam eius harum consequatur sapiente assumenda, officia voluptas quas numquam placeat, alias molestias nisi laudantium nesciunt perspiciatis suscipit hic voluptate corporis id distinctio earum. Dolor reprehenderit fuga dolore officia adipisci neque!</p>
-			</div>
-			<div class="col-lg-6">
-				<img class="img-fluid" src="images/company/company-group-pic.jpg">
-			</div>
-		</div>
-	</div>
-</section> -->
-
-<!-- <section class="service-arrow">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-lg-4 col-sm-6 bg-primary">
-				<div class="block">
-					<i class="ion-erlenmeyer-flask text-white"></i>
-					<h3 class="text-white mb-3">Interface Design</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim impedit repudiandae omnis est temporibus.</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-sm-6 bg-primary bg-primary-dark">
-				<div class="block">
-					<i class="ion-leaf text-white"></i>
-					<h3 class="text-white mb-3">Product Branding</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim impedit repudiandae omnis est temporibus.</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-sm-12 bg-primary bg-primary-darker">
-				<div class="block">
-					<i class="ion-lightbulb text-white"></i>
-					<h3 class="text-white mb-3">Game Development</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim impedit repudiandae omnis est temporibus.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</section> -->
-
-<!-- <section class="service-list section bg-gray">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="section-title text-center">
-					<h2>What we do best</h2>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-4 col-sm-6">
-				<div class="block">
-					<h3 class="mb-3">User research</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, unde.</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-sm-6">
-				<div class="block">
-					<h3 class="mb-3">Product marketing</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, unde.</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-sm-6">
-				<div class="block">
-					<h3 class="mb-3">Visual design</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, unde.</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-sm-6">
-				<div class="block">
-					<h3 class="mb-3">Front-end engineering</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, unde.</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-sm-6">
-				<div class="block">
-					<h3 class="mb-3">Usability testing & analytics</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, unde.</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-sm-6">
-				<div class="block">
-					<h3 class="mb-3">Design sprints & prototyping</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, unde.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</section> -->
-
-<!-- <section class="call-to-action bg-1 section-sm overly">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="block">
-					<h2 class="mb-3">We design delightful digital experiences.</h2>
-					<p>Read more about what we do and our philosophy of design. Judge for yourself The work and results <br> we’ve
-						achieved for other clients, and meet our highly experienced Team who just love to design.</p>
-					<a class="btn btn-main btn-solid-border" href="contact.html">Tell Us Your Story</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</section> -->
-
 <!-- footer Start -->
-<footer class="footer">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="footer-manu">
-					<ul>
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="contact.html">Contact us</a></li>
-						<li><a href="service.html">How it works</a></li>
-						<li><a href="faq.html">FAQ</a></li>
-						<li><a href="pricing.html">Pricing</a></li>
-					</ul>
-				</div>
-				<p class="copyright mb-0">Copyright <script>document.write(new Date().getFullYear())</script> &copy; Designed & Developed by <a
-						href="http://www.themefisher.com">Themefisher</a>. All rights reserved.
-					<br> Get More <a href="https://themefisher.com/free-bootstrap-templates/">Free Bootstrap
-						Templates</a>
-				</p>
-			</div>
-		</div>
-	</div>
-</footer>
+<div class="div-footer-custom">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-3">
+        <ul>
+          <li><h3>Site Functions</h3></li>
+          <li class="li-footer-custom"><a href="index.html">Home</a></li>
+          <li class="li-footer-custom"><a href="about.html">About Us</a></li>
+          <li class="li-footer-custom"><a href="products.html">Products</a></li>
+          <li class="li-footer-custom"><a href="infrastructure.html">Infrastructure</a></li>
+          <li class="li-footer-custom"><a href="service.html">Service</a></li>
+          <li class="li-footer-custom"><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="col-3">
+        <ul>
+          <li><h3>Products</h3></li>
+          <li class="li-footer-custom"><a href="">WGX Series</a></li>
+          <li class="li-footer-custom"><a href="">MOR Series</a></li>
+        </ul>
+        <br>
+        <ul>
+          <li><h3>Services</h3></li>
+          <li class="li-footer-custom"><a href="#">Get essential support</a></li>
+        </ul>
+      </div>      
+      <div class="col-3">
+        <ul>
+          <li><h3>Enquiries</h3></li>
+          <li class="li-footer-custom"><a href="about.html">Request A Quote</a></li>
+          <li class="li-footer-custom"><a href="contact.html">Product / Technical Enquiry</a></li>
+          <li class="li-footer-custom"><a href="service.html">Sales & Service Locator</a></li>
+        </ul>
+      </div>
+      <div class="col-3">
+        <h3>Connect via Social Media Handles</h3>
+        <div class="social-custom">
+          <div class="social-icons-custom">
+            <a href="https://www.facebook.com/Transtork-Automation-Private-Limited-113983403315419/" target="_blank"><span class="icon icon-custom ion-social-facebook"></a></span>
+          </div>
+          <div class="social-icons-custom">
+            <a href="https://www.instagram.com/valve_gearbox?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><span class="icon icon-custom ion-social-instagram"></a></span>
+          </div>
+          <div class="social-icons-custom">
+            <a href="https://twitter.com/transtork" target="_blank"><span class="icon icon-custom ion-social-twitter"></a></span>
+          </div>
+          <div class="social-icons-custom">
+            <a href="https://www.linkedin.com/company/transtork-automation-pvt-ltd/?viewAsMember=true" target="_blank"><span class="icon icon-custom ion-social-linkedin"></a></span>
+          </div>
+        </div>
+        <div class="social-custom">
+          <div class="social-icons-custom">
+            <a href="https://business.google.com/dashboard/l/04822513641521307803?gmbsrc=ww-ww-ot-gs-z-gmb-l-z-h~z-ogb-u" target="_blank"><span class="icon icon-custom ion-social-google"></a></span>
+          </div>
+          <div class="social-icons-custom">
+            <a href="https://www.indiamart.com/transtork-automation-pvt-ltd/" target="_blank"><span class="icon icon-custom ion-android-playstore"></a></span>
+          </div>
+          <div class="social-icons-custom">
+            <a href="https://www.tradeindia.com/Seller-15671472-Transtork-Automation-Pvt-Ltd/" target="_blank"><span class="icon icon-custom ion-android-playstore"></a></span>
+          </div>
+        </div>
+        <a href="#"></a>
+      </div>
+    </div>
+    <br><br><br>
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-8 text-center">
+        <p class="copyright copyright-custom mb-0">Copyright <script>document.write(new Date().getFullYear())</script> &copy; Designed & Developed by <a
+          href="http://www.themefisher.com">Themefisher</a>. All rights reserved.
+        <br> Get More <a href="https://themefisher.com/free-bootstrap-templates/">Free Bootstrap
+          Templates</a>
+        </p>
+      </div>
+      <div class="col-2"></div>
+    </div>
+  </div>
+</div>
 
 <!--Scroll to top-->
-<div id="scroll-to-top" class="scroll-to-top">
+<div id="scroll-to-top" class="scroll-to-top scroll-to-top-custom">
 	<span class="icon ion-ios-arrow-up"></span>
 </div>
 
