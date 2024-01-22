@@ -2097,6 +2097,13 @@ ul.dropdown-menu li {
   background-attachment: fixed;
 }
 
+.bg-2x {
+  background: url("../images/about_us_banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .widget {
   margin-bottom: 30px;
 }
@@ -2772,8 +2779,10 @@ ul.dropdown-menu li {
 }
 
 .div-footer-custom {
-  background-color: #3e3e3e;
-  color: #FF2525;
+/*  background-color: #3e3e3e;*/
+  background-color: #1B6873;
+/*  color: #FF2525;*/
+  color: #ffffff;
   padding: 2.5vw;
 }
 
@@ -2799,8 +2808,8 @@ ul.dropdown-menu li {
 }
 
 .social-icons-custom {
-  width: 6vh !important;
-  height: 6vh !important;
+  width: 4.5vh !important;
+  height: 4.5vh !important;
   border-radius: 50%  !important;
   background-color: #ffffff;
   color: #FF2525;
@@ -2808,8 +2817,28 @@ ul.dropdown-menu li {
   text-align: center !important;
 }
 
+.social-icons-custom2 {
+  width: 150px !important;
+  height: 150px !important;
+  border-radius: 50%  !important;
+  background-color: #ffffff;
+  color: #1B6873;
+  box-shadow: 10px 10px lightgrey;
+  text-align: center !important;
+}
+
 .icon-custom {
-  font-size: 2em;
+  font-size: 1.75em;
+  display: inline-block;
+}
+
+.icon-custom2 {
+  font-size: 1.25em;
+  display: inline-block;
+}
+
+.icon-custom2x {
+  font-size: 5em;
   display: inline-block;
 }
 
