@@ -39,51 +39,62 @@
   
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body id="body">
 
 <!-- Header Start -->
 <header class="navigation navigation-custom">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<nav class="navbar navbar-expand-lg p-0">
-					<a class="navbar-brand navbar-brand-custom" href="index.html">
-						<img src="images/transtork-logo.jpg" alt="Logo" width="181" height="71">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <nav class="navbar navbar-expand-lg p-0">
+          <a class="navbar-brand navbar-brand-custom" href="index.html">
+            <img src="images/transtork-logo.png" alt="Logo" width="241" height="81">
             <!-- <img src="images/updated-logo.png" alt="Logo" width="151" height="51"> -->
-					</a>
+          </a>
 
-					<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="ion-android-menu"></span>
-					</button>
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="ion-android-menu"></span>
+          </button>
 
-					<div class="collapse navbar-collapse ml-auto" id="navbarsExample09">
-						<ul class="navbar-nav ml-auto">
-							<li class="nav-item active">
-								<a class="nav-link nav-link-custom" href="index.html">Home</a>
-							</li>
+          <div class="collapse navbar-collapse ml-auto" id="navbarsExample09">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link nav-link-custom" href="index.html">Home</a>
+              </li>
               <li class="nav-item @@contact">
                 <a class="nav-link nav-link-custom" href="about.html">About Us</a>
               </li>
-              <li class="nav-item @@service">
+              <!-- <li class="nav-item @@service">
                 <a class="nav-link nav-link-custom" href="products.html">Products</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link nav-link-custom dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                  Products
+                </a>
+                <div class="dropdown-menu dropdown-menu2">
+                  <a class="dropdown-item dropdown-item2" href="products.html">All Products</a>
+                  <a class="dropdown-item dropdown-item2" href="products-wgx.html">WGX Series</a>
+                  <a class="dropdown-item dropdown-item2" href="products-mor.html">MOR Series</a>
+                </div>
               </li>
-              <li class="nav-item @@service">
+              <!-- <li class="nav-item @@service">
                 <a class="nav-link nav-link-custom" href="infrastructure.html">Infrastructure</a>
-              </li>
-              <li class="nav-item @@service">
+              </li> -->
+              <li class="nav-item active @@service">
                 <a class="nav-link nav-link-custom" href="service.html">Services & Support</a>
               </li>
               <li class="nav-item @@contact">
                 <a class="nav-link nav-link-custom" href="contact.html">Contact Us</a>
               </li>
-						</ul>
-					</div>
-				</nav>
-			</div>
-		</div>
-	</div>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
 </header>
 <!-- header close -->
 
@@ -92,207 +103,140 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>Services we provide</h1>
+          <h1>Service</h1>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="testimonial section-sm pt-5">
-	<div class="container">
+<section class="service-about section">
+	<div class="container-fluid">
     <div class="row">
-      <div class="col-md-12">
-      	<div class="tabCommon">
-					<ul class="nav nav-tabs" id="myTab" role="tablist">
-						<li class="nav-item" role="presentation">
-							<a class="nav-link nav-link-service-custom active" id="service-tab" data-toggle="tab" href="#service" role="tab" aria-controls="service" aria-selected="false"><h3>Service</h3></a>
-						</li>
-						<li class="nav-item" role="presentation">
-							<a class="nav-link nav-link-service-custom" id="support-tab" data-toggle="tab" href="#support" role="tab" aria-controls="support" aria-selected="false"><h3>Support</h3></a>
-						</li>
-						<li class="nav-item" role="presentation">
-							<a class="nav-link nav-link-service-custom" id="faq-tab" data-toggle="tab" href="#faq" role="tab" aria-controls="faq" aria-selected="false"><h3>FAQ's</h3></a>
-						</li>
-						<li class="nav-item" role="presentation">
-							<a class="nav-link nav-link-service-custom" id="downloads-tab" data-toggle="tab" href="#downloads" role="tab" aria-controls="downloads" aria-selected="false"><h3>downloads</h3></a>
-						</li>
-					</ul>
-					<div class="tab-content" id="myTabContent">
-						<div class="tab-pane fade show active" id="service" role="tabpanel" aria-labelledby="service-tab">
-							<div id="file-error" style="display: none;">
-								<div class="row">
-									<div class="col-lg-6">
-										<div class="card">
-											<div class="card-body bg-danger text-white">
-												Please select file. File cannot be empty!
-											</div>
-										</div>
-										<br>
-									</div>
-								</div>
-							</div>
-							<div id="form-error" style="display: none;">
-								<div class="row">
-									<div class="col-lg-6">
-										<div class="card">
-											<div class="card-body bg-danger text-white">
-												Please fill complete details. Form cannot be submitted with empty data!
-											</div>
-										</div>
-										<br>
-									</div>
-								</div>
-							</div>
-							<div id="form-success" style="display: none;">
-							  <div class="row">
-							    <div class="col-lg-6">
-							      <div class="card">
-							        <div class="card-body bg-success text-white">
-							          Details submitted successfully!
-							        </div>
-							      </div>
-							      <br>
-							    </div>
-							  </div>
-							</div>
-							<form class="row" id="service-form" action="mail.php" method="POST" enctype="multipart/form-data">
-								<div class="col-lg-6">
-										<div class="form">
-											<div class="form-group">
-										    <input type="text" class="form-control" placeholder="Enter your Full Name:" name="user_name">
-											</div>
-											<div class="form-group">
-										    <input type="email" class="form-control" placeholder="Enter your Email ID:" name="user_email">
-											</div>
-											<div class="form-group">
-										    <input type="text" class="form-control" placeholder="Enter your Company Name:" name="user_company_name">
-											</div>
-											<div class="form-group">
-										    <label for="productdescription">Enter your Product Description:</label>
-											</div>
-											<div class="form-group">
-												<input type="text" class="form-control" placeholder="Enter your Product Model:" name="user_product_model">
-											</div>
-											<div class="form-group">
-												<input type="text" class="form-control" placeholder="Enter your Product Serial Number:" name="user_product_serial_number">
-											</div>
-											<div class="form-group">
-												<textarea class="form-control" rows="5" placeholder="Enter your Product Requirement:" name="user_product_requirement"></textarea>
-											</div>
-											<div class="form-group">
-												<input type="file" name="file" class="form-control-file border">
-											</div>
-											<div class="form-group" style="display: none;">
-											  <input name="user_page" type="text" class="form-control" placeholder="" value="service">
-											</div>
-											<div class="form-group">
-												<button id="submitservice" type="submit" class="btn red-text-black-bg-btn btn-lg">Submit</button>
-											</div>
-										</div>
-								</div>
-							</form>
-						</div>
-						<div class="tab-pane fade" id="support" role="tabpanel" aria-labelledby="support-tab">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis ducimus facere repellat
-								harum, eius cupiditate, aliquam aut deserunt. Nemo illo ex impedit autem quod nobis architecto, velit
-								quasi, aut voluptas porro natus. Fuga magnam perspiciatis fugit, placeat possimus officia non ducimus
-								voluptatum aspernatur ad quidem neque accusantium repudiandae cupiditate nobis corporis, cum facere
-								iusto, modi cumque consectetur saepe. Officia, molestiae tempore! Consequatur ipsa consequuntur saepe
-								suscipit vero laudantium, mollitia, quaerat soluta nihil non tempore, quos dignissimos quasi ab officiis
-								illum numquam quibusdam ducimus, veritatis ad. Quia, aliquid. Quaerat quos ducimus ipsam amet minus
-								temporibus eos sequi alias hic nemo.</p>
-							</div>
-						<div class="tab-pane fade" id="faq" role="tabpanel" aria-labelledby="faq-tab">
-							<div class="row">
-								<div class="col-lg-12">
-									<button class="btn btn-info" data-toggle="collapse" data-target="#q1">Question 1 </button>
-									<div id="q1" class="collapse">
-										<br>
-										Lorem ipsum dolor text....
-									</div>
-								</div>
-							</div>
-							<br>
-							<div class="row">
-								<div class="col-lg-12">
-									<button class="btn btn-info" data-toggle="collapse" data-target="#q2">Question 1 </button>
-									<div id="q2" class="collapse">
-										<br>
-										Lorem ipsum dolor text....
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="tab-pane fade" id="downloads" role="tabpanel" aria-labelledby="downloads-tab">
-							<div class="row">
-								<div class="col-lg-3">
-									<div class="card">
-										<div class="card-body" align="center">
-											<br>
-											<p>
-												<i class="fa-solid fa-5x fa-file-pdf"></i>
-											</p>
-											<br>
-											<p>
-												<button class="btn btn-info">Download</button>
-											</p>
-											<br>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-3">
-									<div class="card">
-										<div class="card-body" align="center">
-											<br>
-											<p>
-												<i class="fa-solid fa-5x fa-file-pdf"></i>
-											</p>
-											<br>
-											<p>
-												<button class="btn btn-info">Download</button>
-											</p>
-											<br>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-3">
-									<div class="card">
-										<div class="card-body" align="center">
-											<br>
-											<p>
-												<i class="fa-solid fa-5x fa-file-pdf"></i>
-											</p>
-											<br>
-											<p>
-												<button class="btn btn-info">Download</button>
-											</p>
-											<br>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-3">
-									<div class="card">
-										<div class="card-body" align="center">
-											<br>
-											<p>
-												<i class="fa-solid fa-5x fa-file-pdf"></i>
-											</p>
-											<br>
-											<p>
-												<button class="btn btn-info">Download</button>
-											</p>
-											<br>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+      <div class="col-1"></div>
+      <div class="col-10">
+        <div class="tabCommon">
+          <div class="row">
+            <div class="col-5"></div>
+            <div class="col-4">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link nav-link-service-custom2 active" id="service-tab" data-toggle="tab" href="#service" role="tab" aria-controls="service" aria-selected="false"><h3>Service</h3></a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link nav-link-service-custom2" id="support-tab" data-toggle="tab" href="#support" role="tab" aria-controls="support" aria-selected="false"><h3>FAQ</h3></a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link nav-link-service-custom2" id="downloads-tab" data-toggle="tab" href="#downloads" role="tab" aria-controls="downloads" aria-selected="false"><h3>Download</h3></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-3"></div>
+          </div>
+          <br>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="service" role="tabpanel" aria-labelledby="service-tab">
+              <div class="row align-items-center text-center text-lg-left">
+                <div class="col-lg-6">
+                  <h2 class="black-text-2"><b>Manufacturing Procedures:</b></h2>
+                  <p class="mt-30 red-text-2"> <b class="bullet-font">&#8226;</b> Hi-tech manufacturing facility along with a separate, robust and scalable set up to meet national and international project specifications.</p>
+                  <p class="mt-30 red-text-2"> <b class="bullet-font">&#8226;</b> Facilities located in the outskirts of Mumbai. The facilities have a perfected and matching synergy with an experienced human resource pool.</p>
+                  <p class="mt-30 red-text-2"> <b class="bullet-font">&#8226;</b> Systems and procedures with the latest national, international standards and codes to meet the demanding technical needs of the customer.</p>
+                  <p class="mt-30 red-text-2"> <b class="bullet-font">&#8226;</b> Manufacturing company working on structure of ‘Lean Manufacturing’ and the entire setup has been streamlined for a smooth production flow based on a pull system.</p>
+                  <p class="mt-30 red-text-2"> <b class="bullet-font">&#8226;</b> R & D center for continues technological development in the existing range of products and to add new products for complete turnkey solutions for our valued customers.</p>
+                </div>
+                <div class="col-lg-6">
+                  <img class="img-fluid" src="images/company/company-group-pic.jpg">
+                </div>
+              </div>
+              <div class="row align-items-center text-center text-lg-left">
+                <div class="col-lg-6">
+                  <img class="img-fluid" src="images/company/company-group-pic.jpg">
+                </div>
+                <div class="col-lg-6">
+                  <h2 class="black-text-2"><b>Manufacturing Facilities:</b></h2>
+                  <p class="mt-30 red-text-2"> <b class="bullet-font">&#8226;</b> Equipped with CNC and VMC machines to meet on time delivery.</p>
+                  <p class="mt-30 red-text-2"> <b class="bullet-font">&#8226;</b> Painting Facility to meet international project specified requirement.</p>
+                  <p class="mt-30 red-text-2"> <b class="bullet-font">&#8226;</b> In-house machinery setup to meet quality policy and timely deliveries.</p>
+                  <p class="mt-30 red-text-2"> <b class="bullet-font">&#8226;</b> Systematically organized assembly and testing section to reduce assembly time and meet our quality standards.</p>
+                </div>
+              </div>
+              <div class="row align-items-center text-center text-lg-left">
+                <div class="col-lg-6">
+                  <h2 class="black-text-2"><b>Quality Control:</b></h2>
+                  <p class="mt-30 red-text-2"> <b class="bullet-font">&#8226;</b> Equipped with Go-No-Go gauges, fixtures and mandrils for quality check of machined components.</p>
+                  <p class="mt-30 red-text-2"> <b class="bullet-font">&#8226;</b> Special measuring instruments and Gear Tooth Vernier Calipers to check the pitch and module of gears.</p>
+                  <p class="mt-30 red-text-2"> <b class="bullet-font">&#8226;</b> Height gauge with Calibrated Surface table for R&D of new products.</p>
+                  <p class="mt-30 red-text-2"> <b class="bullet-font">&#8226;</b> Hardness Tester for inspection of incoming raw materials.</p>
+                </div>
+                <div class="col-lg-6">
+                  <img class="img-fluid" src="images/company/company-group-pic.jpg">
+                </div>
+              </div>
+              <div class="row align-items-center text-center text-lg-left">
+                <div class="col-lg-6">
+                  <img class="img-fluid" src="images/company/company-group-pic.jpg">
+                </div>
+                <div class="col-lg-6">
+                  <h2 class="black-text-2"><b>Testing Facilities:</b></h2>
+                  <p class="mt-30 red-text-2"> <b class="bullet-font">&#8226;</b> Our Manufacturing facility is well equipped with Torque Testing Machine for measuring output torque values of Gearboxes.</p>
+                  <p class="mt-30 red-text-2"> <b class="bullet-font">&#8226;</b> Specially designed Life cycle testing bench, to test and calculate the life cycle of Gearboxes.</p>
+                  <p class="mt-30 red-text-2"> <b class="bullet-font">&#8226;</b> Torque testing bench to measure rated output torque, I/P Thrust and various other parameters required to calculate the efficiency and performance of the gearboxes.</p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="support" role="tabpanel" aria-labelledby="faq-tab">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Question 1</h4>
+                  <p class="card-text">Answer 1.</p>
+                </div>
+              </div>
+              <br>
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Question 2</h4>
+                  <p class="card-text">Answer 2.</p>
+                </div>
+              </div>
+              <br>
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Question 3</h4>
+                  <p class="card-text">Answer 3.</p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="downloads" role="tabpanel" aria-labelledby="downloads-tab">
+              <div class="card flex-row flex-wrap1" id="service-download">
+                <img class="card-img-left img-fluid3" src="images/portfolio/portfolio-big-3.jpg" alt="Card image">
+                <div class="card-body service-download-form">
+                  <h4 class="card-title">Directory Download</h4>
+                  <p class="card-text white-text">After downloading this directory, you need to fill in your email, and our company will send it to your email within 24 hours. Please check it!</p>
+                  <br>
+                  <div class="form-inline">
+                      <input type="email" class="form-control form-control2 service-download-form-input" placeholder="Enter Name" id="email">&nbsp;&nbsp;&nbsp;
+                      <input type="email" class="form-control form-control2 service-download-form-input" placeholder="Enter Telephone" id="email">
+                  </div>
+                  <br>
+                  <div class="form-group">
+                      <input type="email" class="form-control form-control2 service-download-form-input" placeholder="Enter email" id="email">
+                  </div>
+                  <br>
+                  <div class="form-group">
+                      <input type="email" class="form-control form-control2 service-download-form-input" placeholder="Desired Catalog" id="email">
+                  </div>
+                  <br>
+                  <a href="#" class="btn btn-default btn-service-download-form">Send Message</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+      <div class="col-1"></div>
     </div>
-  </div>
+	</div>
 </section>
 
 <!-- footer Start -->
@@ -301,52 +245,99 @@
     <div class="row">
       <div class="col-3">
         <ul>
-          <li><h3>Site Functions</h3></li>
-          <li class="li-footer-custom"><a href="index.html">Home</a></li>
-          <li class="li-footer-custom"><a href="about.html">About Us</a></li>
-          <li class="li-footer-custom"><a href="products.html">Products</a></li>
-          <li class="li-footer-custom"><a href="infrastructure.html">Infrastructure</a></li>
-          <li class="li-footer-custom"><a href="service.html">Service</a></li>
-          <li class="li-footer-custom"><a href="contact.html">Contact Us</a></li>
+          <li><h2 class="red-text-black-bg-x"><u style="text-underline-offset: 50%;">Navigation</u></h2></li>
+          <li class="li-footer"><br></li>
+          <li class="li-footer"><a href="index.html">Home</a></li>
+          <li class="li-footer"><a href="about.html">About Us</a></li>
+          <li class="li-footer"><a href="products.html">Products</a></li>
+          <li class="li-footer"><a href="infrastructure.html">Infrastructure</a></li>
+          <li class="li-footer"><a href="service.html">Service</a></li>
+          <li class="li-footer"><a href="contact.html">Contact Us</a></li>
         </ul>
       </div>
-      <div class="col-3">
+      <!-- <div class="col-3">
         <ul>
-          <li><h3>Products</h3></li>
-          <li class="li-footer-custom"><a href="">WGX Series</a></li>
-          <li class="li-footer-custom"><a href="">MOR Series</a></li>
+          <li><h2><u style="text-underline-offset: 50%;">Products</u></h2></li>
+          <li class="li-footer"><br></li>
+          <li class="li-footer"><a href="">WGX Series</a></li>
+          <li class="li-footer"><a href="">MOR Series</a></li>
         </ul>
         <br>
         <ul>
-          <li><h3>Services</h3></li>
-          <li class="li-footer-custom"><a href="#">Get essential support</a></li>
+          <li><h2><u style="text-underline-offset: 50%;">Services</u></h2></li>
+          <li class="li-footer"><br></li>
+          <li class="li-footer"><a href="#">Get essential support</a></li>
         </ul>
-      </div>      
-      <div class="col-3">
-        <ul>
-          <li><h3>Enquiries</h3></li>
-          <li class="li-footer-custom"><a href="about.html">Request A Quote</a></li>
-          <li class="li-footer-custom"><a href="contact.html">Product / Technical Enquiry</a></li>
-          <li class="li-footer-custom"><a href="service.html">Sales & Service Locator</a></li>
-        </ul>
+      </div> -->
+      <div class="col-6">
+        <div class="row">
+          <ul>
+            <li>
+              <h2 class="red-text-black-bg-x">
+                <u style="text-underline-offset: 50%;">
+                Products&nbsp;
+                </u>
+              </h2>
+            </li>
+          </ul>
+        </div>
+        <div class="row" style="margin-left: -30px;">
+          <div class="col-6">
+            <ul>
+              <li class="li-footer"><br></li>
+              <li class="li-footer"><a href="products-wgx.html">WGX Series</a></li>
+              <li class="li-footer"><a href="products-mor.html">MOR Series</a></li>
+              <!-- <li class="li-footer"><a href="">Pneumatic Actuator</a></li>
+              <li class="li-footer"><a href=""></a>Electric Actuator</li>
+              <li class="li-footer"><a href=""></a>Mini Motorized Valve</li>
+              <li class="li-footer"><a href=""></a>Electric Actuated Valve</li>
+              <li class="li-footer"><a href=""></a>Pneumatic Actuated Valve</li>
+              <li class="li-footer"><a href=""></a>Ball Valve</li>
+              <li class="li-footer"><a href=""></a>Butterfly Valves</li> -->
+            </ul>
+          </div>
+          <!-- <div class="col-6">
+            <ul>
+              <li class="li-footer"><br></li>
+              <li class="li-footer"><a href=""></a>Pneumatic Angle Seat Valve</li>
+              <li class="li-footer"><a href=""></a>Actuator Accessories</li>
+              <li class="li-footer"><a href=""></a>Pneumatic Diaphragm Valve</li>
+            </ul>
+          </div> -->
+        </div>
       </div>
       <div class="col-3">
-        <h3>Connect via Social Media Handles</h3>
+        <ul>
+          <li><h2 class="red-text-black-bg-x"><u style="text-underline-offset: 50%;">Contact Us</u></h2></li>
+          <li class="li-footer"><br></li>
+          <li class="li-footer">
+            <a href="" target="_blank"><span class="icon icon-custom2 ion-ios-telephone">&nbsp;&nbsp;+91 9136390999</a></span>
+          </li>
+          <li class="li-footer">
+            <a href="" target="_blank"><span class="icon icon-custom2 ion-android-mail">&nbsp;&nbsp;info@transtork.com</a></span>
+          </li>
+          <li class="li-footer">
+            <a href="" target="_blank"><span class="icon icon-custom2 ion-ios-location">&nbsp;&nbsp;A-392/2, T.T.C. Industrial Estate, Mahape M.I.D.C., Navi Mumbai - 400710.</a></span>
+          </li>
+        </ul>
         <div class="social-custom">
           <div class="social-icons-custom">
-            <a href="https://www.facebook.com/Transtork-Automation-Private-Limited-113983403315419/" target="_blank"><span class="icon icon-custom ion-social-facebook"></a></span>
+            <a href="https://www.facebook.com/Transtork-Automation-Private-Limited-113983403315419/" target="_blank"><span class="icon icon-custom ion-social-facebook"></span><br></a>
           </div>
           <div class="social-icons-custom">
-            <a href="https://www.instagram.com/valve_gearbox?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><span class="icon icon-custom ion-social-instagram"></a></span>
+            <a href="https://www.instagram.com/valve_gearbox?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><span class="icon icon-custom ion-social-instagram"></span></a>
           </div>
           <div class="social-icons-custom">
-            <a href="https://twitter.com/transtork" target="_blank"><span class="icon icon-custom ion-social-twitter"></a></span>
+            <a href="https://twitter.com/transtork" target="_blank"><span class="icon icon-custom ion-social-whatsapp"></span></a>
           </div>
           <div class="social-icons-custom">
-            <a href="https://www.linkedin.com/company/transtork-automation-pvt-ltd/?viewAsMember=true" target="_blank"><span class="icon icon-custom ion-social-linkedin"></a></span>
+            <a href="https://www.linkedin.com/company/transtork-automation-pvt-ltd/?viewAsMember=true" target="_blank"><span class="icon icon-custom ion-social-linkedin"></span></a>
+          </div>
+          <div class="social-icons-custom">
+            <a href="https://twitter.com/transtork" target="_blank"><span class="icon icon-custom ion-social-youtube"></span></a>
           </div>
         </div>
-        <div class="social-custom">
+        <!-- <div class="social-custom">
           <div class="social-icons-custom">
             <a href="https://business.google.com/dashboard/l/04822513641521307803?gmbsrc=ww-ww-ot-gs-z-gmb-l-z-h~z-ogb-u" target="_blank"><span class="icon icon-custom ion-social-google"></a></span>
           </div>
@@ -356,7 +347,7 @@
           <div class="social-icons-custom">
             <a href="https://www.tradeindia.com/Seller-15671472-Transtork-Automation-Pvt-Ltd/" target="_blank"><span class="icon icon-custom ion-android-playstore"></a></span>
           </div>
-        </div>
+        </div> -->
         <a href="#"></a>
       </div>
     </div>
@@ -364,7 +355,7 @@
     <div class="row">
       <div class="col-2"></div>
       <div class="col-8 text-center">
-        <p class="copyright copyright-custom mb-0">Copyright <script>document.write(new Date().getFullYear())</script> &copy; Designed & Developed by <a
+        <p class="copyright copyright-custom-x mb-0">Copyright <script>document.write(new Date().getFullYear())</script> &copy; Designed & Developed by <a
           href="http://www.themefisher.com">Themefisher</a>. All rights reserved.
         <br> Get More <a href="https://themefisher.com/free-bootstrap-templates/">Free Bootstrap
           Templates</a>
@@ -376,13 +367,15 @@
 </div>
 
 <!--Scroll to top-->
-<div id="scroll-to-top" class="scroll-to-top scroll-to-top-custom">
+<div id="scroll-to-top" class="scroll-to-top scroll-to-top-customx">
 	<span class="icon ion-ios-arrow-up"></span>
 </div>
 
     <!-- 
     Essential Scripts
     =====================================-->
+
+
     <!-- Main jQuery -->
     <script src="plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap 3.1 -->
@@ -398,35 +391,7 @@
     <script src="plugins/google-map/map.js"></script>
 
     <script src="js/script.js"></script>
-    <script src="https://kit.fontawesome.com/879b218553.js" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-    	const onload = () => {
-    		const queryString = window.location.search;
-    		console.log(queryString);
 
-    		const urlParams = new URLSearchParams(queryString);
-    		let file_alert = urlParams.get('file_alert');
-    		let form_alert = urlParams.get('form_alert');
-    		let form_success = urlParams.get('form_success');
+    </body>
 
-    		if (file_alert == '1') {
-    			document.getElementById('file-error').style.display = 'block';
-    		}
-    		if (form_alert == '1') {
-    			document.getElementById('form-error').style.display = 'block';
-    		}
-    		if (form_success == '1') {
-          document.getElementById('form-success').style.display = 'block';
-        }
-
-    		setTimeout(() => {
-    			document.getElementById('file-error').style.display = 'none';
-    			document.getElementById('form-error').style.display = 'none';
-    			document.getElementById('form-success').style.display = 'none';
-    		}, 5000);
-    	}
-    	onload();
-    </script>
-  </body>
-
-</html>
+    </html>
