@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
+
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>Transtork | Empowering Gear Technology</title>
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Creative Agency Bootstrap Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Themefisher Airspace Template v1.0">
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+
+
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- Ionic Icon Css -->
+  <link rel="stylesheet" href="plugins/Ionicons/css/ionicons.min.css">
+  <!-- animate.css -->
+  <link rel="stylesheet" href="plugins/animate-css/animate.css">
+  <!-- Magnify Popup -->
+  <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
+  <!-- Slick CSS -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="body">
+
+<!-- Header Start -->
+<header class="navigation navigation-custom">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<nav class="navbar navbar-expand-lg p-0">
+					<a class="navbar-brand navbar-brand-custom" href="index.html">
+						<img src="images/transtork-logo.png" alt="Logo" width="181" height="71">
+            <!-- <img src="images/updated-logo.png" alt="Logo" width="151" height="51"> -->
+					</a>
+
+					<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="ion-android-menu"></span>
+					</button>
+
+					<div class="collapse navbar-collapse ml-auto" id="navbarsExample09">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item active">
+								<a class="nav-link nav-link-custom" href="index.html">Home</a>
+							</li>
+              <li class="nav-item @@contact">
+                <a class="nav-link nav-link-custom" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item @@service">
+                <a class="nav-link nav-link-custom" href="products.html">Products</a>
+              </li>
+              <li class="nav-item @@service">
+                <a class="nav-link nav-link-custom" href="infrastructure.html">Infrastructure</a>
+              </li>
+              <li class="nav-item @@service">
+                <a class="nav-link nav-link-custom" href="service.html">Services & Support</a>
+              </li>
+              <li class="nav-item @@contact">
+                <a class="nav-link nav-link-custom" href="contact.html">Contact Us</a>
+              </li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>
+<!-- header close -->
+
+<section class="page-title bg-2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Services we provide</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="testimonial section-sm pt-5">
+	<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+      	<div class="tabCommon">
+					<ul class="nav nav-tabs" id="myTab" role="tablist">
+						<li class="nav-item" role="presentation">
+							<a class="nav-link nav-link-service-custom active" id="service-tab" data-toggle="tab" href="#service" role="tab" aria-controls="service" aria-selected="false"><h3>Service</h3></a>
+						</li>
+						<li class="nav-item" role="presentation">
+							<a class="nav-link nav-link-service-custom" id="support-tab" data-toggle="tab" href="#support" role="tab" aria-controls="support" aria-selected="false"><h3>Support</h3></a>
+						</li>
+						<li class="nav-item" role="presentation">
+							<a class="nav-link nav-link-service-custom" id="faq-tab" data-toggle="tab" href="#faq" role="tab" aria-controls="faq" aria-selected="false"><h3>FAQ's</h3></a>
+						</li>
+						<li class="nav-item" role="presentation">
+							<a class="nav-link nav-link-service-custom" id="downloads-tab" data-toggle="tab" href="#downloads" role="tab" aria-controls="downloads" aria-selected="false"><h3>downloads</h3></a>
+						</li>
+					</ul>
+					<div class="tab-content" id="myTabContent">
+						<div class="tab-pane fade show active" id="service" role="tabpanel" aria-labelledby="service-tab">
+							<div id="file-error" style="display: none;">
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="card">
+											<div class="card-body bg-danger text-white">
+												Please select file. File cannot be empty!
+											</div>
+										</div>
+										<br>
+									</div>
+								</div>
+							</div>
+							<div id="form-error" style="display: none;">
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="card">
+											<div class="card-body bg-danger text-white">
+												Please fill complete details. Form cannot be submitted with empty data!
+											</div>
+										</div>
+										<br>
+									</div>
+								</div>
+							</div>
+							<div id="form-success" style="display: none;">
+							  <div class="row">
+							    <div class="col-lg-6">
+							      <div class="card">
+							        <div class="card-body bg-success text-white">
+							          Details submitted successfully!
+							        </div>
+							      </div>
+							      <br>
+							    </div>
+							  </div>
+							</div>
+							<form class="row" id="service-form" action="mail.php" method="POST" enctype="multipart/form-data">
+								<div class="col-lg-6">
+										<div class="form">
+											<div class="form-group">
+										    <input type="text" class="form-control" placeholder="Enter your Full Name:" name="user_name">
+											</div>
+											<div class="form-group">
+										    <input type="email" class="form-control" placeholder="Enter your Email ID:" name="user_email">
+											</div>
+											<div class="form-group">
+										    <input type="text" class="form-control" placeholder="Enter your Company Name:" name="user_company_name">
+											</div>
+											<div class="form-group">
+										    <label for="productdescription">Enter your Product Description:</label>
+											</div>
+											<div class="form-group">
+												<input type="text" class="form-control" placeholder="Enter your Product Model:" name="user_product_model">
+											</div>
+											<div class="form-group">
+												<input type="text" class="form-control" placeholder="Enter your Product Serial Number:" name="user_product_serial_number">
+											</div>
+											<div class="form-group">
+												<textarea class="form-control" rows="5" placeholder="Enter your Product Requirement:" name="user_product_requirement"></textarea>
+											</div>
+											<div class="form-group">
+												<input type="file" name="file" class="form-control-file border">
+											</div>
+											<div class="form-group" style="display: none;">
+											  <input name="user_page" type="text" class="form-control" placeholder="" value="service">
+											</div>
+											<div class="form-group">
+												<button id="submitservice" type="submit" class="btn red-text-black-bg-btn btn-lg">Submit</button>
+											</div>
+										</div>
+								</div>
+							</form>
+						</div>
+						<div class="tab-pane fade" id="support" role="tabpanel" aria-labelledby="support-tab">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis ducimus facere repellat
+								harum, eius cupiditate, aliquam aut deserunt. Nemo illo ex impedit autem quod nobis architecto, velit
+								quasi, aut voluptas porro natus. Fuga magnam perspiciatis fugit, placeat possimus officia non ducimus
+								voluptatum aspernatur ad quidem neque accusantium repudiandae cupiditate nobis corporis, cum facere
+								iusto, modi cumque consectetur saepe. Officia, molestiae tempore! Consequatur ipsa consequuntur saepe
+								suscipit vero laudantium, mollitia, quaerat soluta nihil non tempore, quos dignissimos quasi ab officiis
+								illum numquam quibusdam ducimus, veritatis ad. Quia, aliquid. Quaerat quos ducimus ipsam amet minus
+								temporibus eos sequi alias hic nemo.</p>
+							</div>
+						<div class="tab-pane fade" id="faq" role="tabpanel" aria-labelledby="faq-tab">
+							<div class="row">
+								<div class="col-lg-12">
+									<button class="btn btn-info" data-toggle="collapse" data-target="#q1">Question 1 </button>
+									<div id="q1" class="collapse">
+										<br>
+										Lorem ipsum dolor text....
+									</div>
+								</div>
+							</div>
+							<br>
+							<div class="row">
+								<div class="col-lg-12">
+									<button class="btn btn-info" data-toggle="collapse" data-target="#q2">Question 1 </button>
+									<div id="q2" class="collapse">
+										<br>
+										Lorem ipsum dolor text....
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="downloads" role="tabpanel" aria-labelledby="downloads-tab">
+							<div class="row">
+								<div class="col-lg-3">
+									<div class="card">
+										<div class="card-body" align="center">
+											<br>
+											<p>
+												<i class="fa-solid fa-5x fa-file-pdf"></i>
+											</p>
+											<br>
+											<p>
+												<button class="btn btn-info">Download</button>
+											</p>
+											<br>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3">
+									<div class="card">
+										<div class="card-body" align="center">
+											<br>
+											<p>
+												<i class="fa-solid fa-5x fa-file-pdf"></i>
+											</p>
+											<br>
+											<p>
+												<button class="btn btn-info">Download</button>
+											</p>
+											<br>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3">
+									<div class="card">
+										<div class="card-body" align="center">
+											<br>
+											<p>
+												<i class="fa-solid fa-5x fa-file-pdf"></i>
+											</p>
+											<br>
+											<p>
+												<button class="btn btn-info">Download</button>
+											</p>
+											<br>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3">
+									<div class="card">
+										<div class="card-body" align="center">
+											<br>
+											<p>
+												<i class="fa-solid fa-5x fa-file-pdf"></i>
+											</p>
+											<br>
+											<p>
+												<button class="btn btn-info">Download</button>
+											</p>
+											<br>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- footer Start -->
+<div class="div-footer-custom">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-3">
+        <ul>
+          <li><h3>Site Functions</h3></li>
+          <li class="li-footer-custom"><a href="index.html">Home</a></li>
+          <li class="li-footer-custom"><a href="about.html">About Us</a></li>
+          <li class="li-footer-custom"><a href="products.html">Products</a></li>
+          <li class="li-footer-custom"><a href="infrastructure.html">Infrastructure</a></li>
+          <li class="li-footer-custom"><a href="service.html">Service</a></li>
+          <li class="li-footer-custom"><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="col-3">
+        <ul>
+          <li><h3>Products</h3></li>
+          <li class="li-footer-custom"><a href="">WGX Series</a></li>
+          <li class="li-footer-custom"><a href="">MOR Series</a></li>
+        </ul>
+        <br>
+        <ul>
+          <li><h3>Services</h3></li>
+          <li class="li-footer-custom"><a href="#">Get essential support</a></li>
+        </ul>
+      </div>      
+      <div class="col-3">
+        <ul>
+          <li><h3>Enquiries</h3></li>
+          <li class="li-footer-custom"><a href="about.html">Request A Quote</a></li>
+          <li class="li-footer-custom"><a href="contact.html">Product / Technical Enquiry</a></li>
+          <li class="li-footer-custom"><a href="service.html">Sales & Service Locator</a></li>
+        </ul>
+      </div>
+      <div class="col-3">
+        <h3>Connect via Social Media Handles</h3>
+        <div class="social-custom">
+          <div class="social-icons-custom">
+            <a href="https://www.facebook.com/Transtork-Automation-Private-Limited-113983403315419/" target="_blank"><span class="icon icon-custom ion-social-facebook"></a></span>
+          </div>
+          <div class="social-icons-custom">
+            <a href="https://www.instagram.com/valve_gearbox?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><span class="icon icon-custom ion-social-instagram"></a></span>
+          </div>
+          <div class="social-icons-custom">
+            <a href="https://twitter.com/transtork" target="_blank"><span class="icon icon-custom ion-social-twitter"></a></span>
+          </div>
+          <div class="social-icons-custom">
+            <a href="https://www.linkedin.com/company/transtork-automation-pvt-ltd/?viewAsMember=true" target="_blank"><span class="icon icon-custom ion-social-linkedin"></a></span>
+          </div>
+        </div>
+        <div class="social-custom">
+          <div class="social-icons-custom">
+            <a href="https://business.google.com/dashboard/l/04822513641521307803?gmbsrc=ww-ww-ot-gs-z-gmb-l-z-h~z-ogb-u" target="_blank"><span class="icon icon-custom ion-social-google"></a></span>
+          </div>
+          <div class="social-icons-custom">
+            <a href="https://www.indiamart.com/transtork-automation-pvt-ltd/" target="_blank"><span class="icon icon-custom ion-android-playstore"></a></span>
+          </div>
+          <div class="social-icons-custom">
+            <a href="https://www.tradeindia.com/Seller-15671472-Transtork-Automation-Pvt-Ltd/" target="_blank"><span class="icon icon-custom ion-android-playstore"></a></span>
+          </div>
+        </div>
+        <a href="#"></a>
+      </div>
+    </div>
+    <br><br><br>
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-8 text-center">
+        <p class="copyright copyright-custom mb-0">Copyright <script>document.write(new Date().getFullYear())</script> &copy; Designed & Developed by <a
+          href="http://www.themefisher.com">Themefisher</a>. All rights reserved.
+        <br> Get More <a href="https://themefisher.com/free-bootstrap-templates/">Free Bootstrap
+          Templates</a>
+        </p>
+      </div>
+      <div class="col-2"></div>
+    </div>
+  </div>
+</div>
+
+<!--Scroll to top-->
+<div id="scroll-to-top" class="scroll-to-top scroll-to-top-custom">
+	<span class="icon ion-ios-arrow-up"></span>
+</div>
+
+    <!-- 
+    Essential Scripts
+    =====================================-->
+    <!-- Main jQuery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 3.1 -->
+    <script src="plugins/bootstrap/bootstrap.min.js"></script>
+    <!-- slick Carousel -->
+    <script src="plugins/slick/slick.min.js"></script>
+    <script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- filter -->
+    <script src="plugins/shuffle/shuffle.min.js"></script>
+    <script src="plugins/SyoTimer/jquery.syotimer.min.js"></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"></script>
+    <script src="plugins/google-map/map.js"></script>
+
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/879b218553.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    	const onload = () => {
+    		const queryString = window.location.search;
+    		console.log(queryString);
+
+    		const urlParams = new URLSearchParams(queryString);
+    		let file_alert = urlParams.get('file_alert');
+    		let form_alert = urlParams.get('form_alert');
+    		let form_success = urlParams.get('form_success');
+
+    		if (file_alert == '1') {
+    			document.getElementById('file-error').style.display = 'block';
+    		}
+    		if (form_alert == '1') {
+    			document.getElementById('form-error').style.display = 'block';
+    		}
+    		if (form_success == '1') {
+          document.getElementById('form-success').style.display = 'block';
+        }
+
+    		setTimeout(() => {
+    			document.getElementById('file-error').style.display = 'none';
+    			document.getElementById('form-error').style.display = 'none';
+    			document.getElementById('form-success').style.display = 'none';
+    		}, 5000);
+    	}
+    	onload();
+    </script>
+  </body>
+
+</html>

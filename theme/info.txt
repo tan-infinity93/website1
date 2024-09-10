@@ -1,0 +1,82 @@
+
+
+
+
+
+
+index page:
+
+product page - 2 product
+
+about us / company profile - banner image | old vision tab like layout
+
+banner image - increase width and height both
+
+product page single dropdown to direct product page
+
+certifications - use original images shared by them
+
+footer images enlarge till 710 address line
+
+fix footer navigation and product items
+
+
+enable 3 buttons:
+name, contact no, email id, requirement details
+
+
+remove fax option from contact us
+
+mor series remove optional series
+
+----
+
+#fefefe
+- white
+- #c21e21
+- red
+- #3e3e3e
+- black
+- #c8a1a2
+- d-grey
+- #edcecf
+- l-grey
+
+
+Red color schemes can convey various emotions and themes depending on the shades and combinations used. Here are a few red color schemes that you can consider for your website:
+
+Classic Red and White:
+
+Primary Color: #FF0000 (Red)
+Accent Color: #FFFFFF (White)
+Passionate Red and Black:
+
+Primary Color: #FF0000 (Red)
+Accent Color: #000000 (Black)
+Energetic Red and Yellow:
+
+Primary Color: #FF0000 (Red)
+Accent Color: #FFD700 (Yellow)
+Warm and Cozy Red and Brown:
+
+Primary Color: #FF6347 (Tomato)
+Accent Color: #8B4513 (Saddle Brown)
+Modern Red and Gray:
+
+Primary Color: #FF0000 (Red)
+Accent Color: #808080 (Gray)
+Sophisticated Red and Gold:
+
+Primary Color: #FF0000 (Red)
+Accent Color: #FFD700 (Gold)
+Vibrant Red, Green, and Blue:
+
+Primary Color: #FF0000 (Red)
+Accent Color 1: #008000 (Green)
+Accent Color 2: #0000FF (Blue)
+Crimson and Cream:
+
+Primary Color: #DC143C (Crimson)
+Accent Color: #FFF0F5 (Lavender Blush)
+
+check product detail page and email sending accounts
