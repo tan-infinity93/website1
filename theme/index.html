@@ -77,18 +77,18 @@
                 <a class="nav-link nav-link-custom" href="products.html">Products</a>
               </li> -->
               <li class="nav-item dropdown">
-                <a class="nav-link nav-link-custom dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                <a class="nav-link nav-link-custom dropdown-toggle" href="products.html" id="navbardrop" data-toggle="dropdown">
                   Products
                 </a>
                 <div class="dropdown-menu dropdown-menu2">
-                  <a class="dropdown-item dropdown-item2" href="products.html">All Products</a>
+                  <!-- <a class="dropdown-item dropdown-item2" href="products.html">All Products</a> -->
                   <a class="dropdown-item dropdown-item2" href="products-wgx.html">WGX Series</a>
                   <a class="dropdown-item dropdown-item2" href="products-mor.html">MOR Series</a>
                 </div>
               </li>
-              <!-- <li class="nav-item @@service">
+              <li class="nav-item @@service">
                 <a class="nav-link nav-link-custom" href="infrastructure.html">Infrastructure</a>
-              </li> -->
+              </li>
               <li class="nav-item @@service">
                 <a class="nav-link nav-link-custom" href="service.html">Services & Support</a>
               </li>
@@ -138,11 +138,11 @@
 
 <!-- Portfolio Start -->
 <section class="portfolio-work">
-  <div class="container">
-    <div class="row">
+  <div class="container container-portfolio-custom">
+    <!-- <div class="row">
       <div class="col-md-12">
         <div class="block text-center">
-          <h1 class="pb-3"><u style="text-underline-offset: 50%;">Product Category</u></h1>
+          <h2 class="pb-3"><b>PRODUCT CATEGORY</b></h2>
         </div>
         <div class="block">
           <div class="portfolio-menu">
@@ -164,7 +164,6 @@
               <img src="images/portfolio/WGX_IMAGE.jpg" alt="">
               <div class="portfolio-hover">
                 <div class="portfolio-content">
-                  <!-- <a href="images/portfolio/CHAINWHEEL_ARRANGEMENT.PNG" class="portfolio-popup"><i class="icon ion-search"></i></a> -->
                   <a href="images/portfolio/work1.jpg" class="portfolio-popup"><i class="icon ion-search"></i></a>
                   <a class="h3" href="products-wgx.html">WGX Series</a>
                   <p>Click text above to see details.</p>
@@ -175,7 +174,6 @@
               <img src="images/portfolio/MOR_IMAGE.jpg" alt="">
               <div class="portfolio-hover">
                 <div class="portfolio-content">
-                  <!-- <a href="images/portfolio/PAD_LOCK_ARRANGEMENT.PNG" class="portfolio-popup"><i class="icon ion-search"></i></a> -->
                   <a href="images/portfolio/work4.jpg" class="portfolio-popup"><i class="icon ion-search"></i></a>
                   <a class="h3" href="products-mor.html">MOR Series</a>
                   <p>Click text above to see details.</p>
@@ -185,6 +183,21 @@
             <div class="col-3"></div>
           </div>
         </div>
+      </div>
+    </div> -->
+    <div class="block text-center">
+      <h2 class="pb-3"><b>PRODUCT CATEGORY</b></h2>
+    </div>
+    <div class="row text-center">
+      <div class="col-sm-6 col-md-6">
+        <img class="index-img" src="images/portfolio/WGX_IMAGE.jpg" alt="wgx_image" width="100%" height="55%">
+        <br><br>
+        <a href="products-wgx.html"><button class="btn btn-outline-primary">WGX Series</button></a>
+      </div>
+      <div class="col-sm-6 col-md-6">
+        <img class="index-img" src="images/portfolio/MOR_IMAGE.jpg" alt="mor_image" width="100%" height="55%">
+        <br><br>
+        <a href="products-mor.html"><button class="btn btn-outline-primary">MOR Series</button></a>
       </div>
     </div>
   </div>
@@ -258,18 +271,26 @@
 </section> -->
 
 <section class="feature" id="bg-ci">
-  <div class="container" id="bg-ci-container">
+  <div class="container container-company-intro-custom" id="bg-ci-container">
     <div class="row">
       <div class="col-md-6">
         <div class="section-title section-title-bg-ci">
-          <h2 class="red-text-black-bg-x">COMPANY INTRODUCTION:</h2>
+          <!-- <h2 class="red-text-black-bg-x">COMPANY INTRODUCTION:</h2> -->
+          <!-- <h2 class="black-text">COMPANY INTRODUCTION:</h2> -->
+          <h2 class="black-text-dark-grey">COMPANY INTRODUCTION:</h2>
         </div>
-        <p class="white-text-2"> <b>&#8226;</b> Transtork Automation Private Limited is a company involved in manufacturing of Gear Boxes that are used with valve, dampers and most other quarter-turn applications to meet the diverse Automation demands of the modern process industries.</p>
-        <p class="white-text-2"> <b>&#8226;</b> The company has an engineering and technical expertise together with the facilities to address the diverse automation demands of the modern process industries. Standard, Special and Customized Gearboxes are all available on demand for use in a wide range of applications and industries.</p>
-        <p class="white-text-2" data-toggle="collapse" data-target="#company-intro-read-more" aria-expanded="false" aria-controls="expandableText">Click to read more</p>
+        <p class="red-text-2"> <b>&#8226;</b> Transtork Automation Private Limited is a company involved in manufacturing of Gear Boxes that are used with valve, dampers and most other quarter-turn applications to meet the diverse Automation demands of the modern process industries.</p>
+        <p class="red-text-2"> <b>&#8226;</b> The company has an engineering and technical expertise together with the facilities to address the diverse automation demands of the modern process industries. Standard, Special and Customized Gearboxes are all available on demand for use in a wide range of applications and industries.
+          <button type="button" class="read-more-red-text-2" data-toggle="collapse" data-target="#company-intro-read-more" aria-expanded="false" aria-controls="expandableText">...read more</button>
+        </p>
+        <!-- <p class="red-text-2" data-toggle="collapse" data-target="#company-intro-read-more" aria-expanded="false" aria-controls="expandableText">Click to read more</p> -->
+        <!-- <button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#company-intro-read-more" aria-expanded="false" aria-controls="expandableText">Click to read more</button> -->
         <div id="company-intro-read-more" class="collapse">
-          <p class="white-text-2"> <b>&#8226;</b> Transtork Gearboxes are produced in strict compliance with the Quality Management System requirement and in conformance with the engineering codes in practice and relevant standards.</p>
-          <p class="white-text-2"> <b>&#8226;</b> Our attention to quality at every level of the manufacturing process, rigorous approval standards for material sourcing, preproduction and postproduction inspections, ISO certified, randomly selected measures and tested operator’s leads to the products that are backed by our commitment to customer needs.</p>
+          <!-- <p></p> -->
+          <p class="red-text-2"> <b>&#8226;</b> Transtork Gearboxes are produced in strict compliance with the Quality Management System requirement and in conformance with the engineering codes in practice and relevant standards.</p>
+          <p class="red-text-2"> <b>&#8226;</b> Our attention to quality at every level of the manufacturing process, rigorous approval standards for material sourcing, preproduction and postproduction inspections, ISO certified, randomly selected measures and tested operator’s leads to the products that are backed by our commitment to customer needs.
+            <button type="button" class="read-more-red-text-2" data-toggle="collapse" data-target="#company-intro-read-more" aria-expanded="false" aria-controls="expandableText">...show less</button>
+          </p>
         </div>
       </div>
     </div>
@@ -277,7 +298,7 @@
 </section>
 
 <section class="feature bg-2">
-  <div class="container">
+  <div class="container container-vision-custom">
     <div class="row justify-content-end">
       <div class="col-md-6">
         <h2 class="section-subtitle black-text">VISION:</h2>
@@ -308,8 +329,8 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="block">
-					<h2 class="mb-3 red-text">QUALITY ASSURANCE:</h2>
-					<p class="white-text-2">Our Quality Management System Complies with ISO 9001:2015. We follow National and International Standards in strict compliance to the Quality Management Systems Requirement in conformance with the engineering codes practiced in accordance to their relevant standards. We ensure that all our employees are trained and are aware of Customers expectation and requirement for higher degree of accuracy and a better quality product.</p>
+					<h2 class="mb-3 black-text">QUALITY ASSURANCE:</h2>
+					<p class="red-text-2">Our Quality Management System Complies with ISO 9001:2015. We follow National and International Standards in strict compliance to the Quality Management Systems Requirement in conformance with the engineering codes practiced in accordance to their relevant standards. We ensure that all our employees are trained and are aware of Customers expectation and requirement for higher degree of accuracy and a better quality product.</p>
 					<!-- <a class="btn btn-main btn-solid-border" href="contact.html">Tell Us Your Story</a> -->
 				</div>
 			</div>
@@ -330,32 +351,32 @@
       <div class="col-2">
         <div class="social-icons-custom2">
           <!-- <span class="icon icon-custom2x ion-ios-people"></span> -->
-          <img src="images/landing-page/ISO_9001x.jpg" />
+          <img src="images/landing-page/ISO_9001x.jpg" width="75%" height="75%" />
         </div>
       </div>
       <div class="col-2 text-center certifications-text">
         <h2 class="black-text"><b>Quality</b></h2>
-        <h4 class="black-text">ISO 9001</h4>
+        <h4 class="red-text">ISO 9001</h4>
       </div>
       <div class="col-2">
         <div class="social-icons-custom2">
           <!-- <span class="icon icon-custom2x ion-ios-box"></span> -->
-          <img src="images/landing-page/IP_65x.png" />
+          <img src="images/landing-page/IP_65x.png" width="75%" height="75%" />
         </div>
       </div>
       <div class="col-2 text-center certifications-text">
         <h2 class="black-text">&nbsp;&nbsp;&nbsp;<b>Environment</b></h2>
-        <h4 class="black-text">ISO 14001</h4>
+        <h4 class="red-text">ISO 14001</h4>
       </div>
       <div class="col-2">
         <div class="social-icons-custom2">
           <!-- <span class="icon icon-custom2x ion-lightbulb"></span> -->
-          <img src="images/landing-page/IP_67x.png" />
+          <img src="images/landing-page/IP_67x.png" width="75%" height="75%" />
         </div>
       </div>
       <div class="col-2 text-center certifications-text">
         <h2 class="black-text"><b>Health & Safety</b></h2>
-        <h4 class="black-text">OHSAS 18001</h4>
+        <h4 class="red-text">OHSAS 18001</h4>
       </div>
     </div>
   </div>
@@ -435,13 +456,25 @@
             <li>
               <h2 class="red-text-black-bg-x">
                 <u style="text-underline-offset: 50%;">
-                Ceritifications&nbsp;
+                Social Media Links&nbsp;
                 </u>
               </h2>
-              <li class="li-footer"><a href-"#"><br></a></li>
-              <li class="li-footer"><a href-"#">ISO 9001</a></li>
-              <li class="li-footer"><a href-"#">ISO 14001</a></li>
-              <li class="li-footer"><a href-"#">OHSAS 18001</a></li>
+            </li>
+            <li class="li-footer"><a href-"#"><br></a></li>
+            <li class="li-footer">
+                <a href="https://www.facebook.com/Transtork-Automation-Private-Limited-113983403315419/" target="_blank"><span class="icon icon-custom ion-social-facebook"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Connect on Facebook</a>
+            </li>
+            <li class="li-footer">
+                <a href="https://www.instagram.com/valve_gearbox?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><span class="icon icon-custom ion-social-instagram"></span>&nbsp;&nbsp;&nbsp;Connect on Instagram</a>
+            </li>
+            <li class="li-footer">
+                <a href="https://twitter.com/transtork" target="_blank"><span class="icon icon-custom ion-social-whatsapp"></span>&nbsp;&nbsp;Connect on WhatsApp</a>
+            </li>
+            <li class="li-footer">
+                <a href="https://www.linkedin.com/company/transtork-automation-pvt-ltd/?viewAsMember=true" target="_blank"><span class="icon icon-custom ion-social-linkedin"></span>&nbsp;&nbsp;&nbsp;Connect on Linkedin</a>
+            </li>
+            <li class="li-footer">
+                <a href="https://twitter.com/transtork" target="_blank"><span class="icon icon-custom ion-social-youtube"></span>&nbsp;&nbsp;Connect on Youtube</a>
             </li>
           </ul>
         </div>
@@ -460,9 +493,9 @@
             <a href="" target="_blank"><span class="icon icon-custom2 ion-ios-location">&nbsp;&nbsp;A-392/2, T.T.C. Industrial Estate, Mahape M.I.D.C., Navi Mumbai - 400710.</a></span>
           </li>
         </ul>
-        <div class="social-custom">
+        <!-- <div class="social-custom">
           <div class="social-icons-custom">
-            <a href="https://www.facebook.com/Transtork-Automation-Private-Limited-113983403315419/" target="_blank"><span class="icon icon-custom ion-social-facebook"></span><br></a>
+            <a href="https://www.facebook.com/Transtork-Automation-Private-Limited-113983403315419/" target="_blank"><span class="icon icon-custom ion-social-facebook"></span></a>
           </div>
           <div class="social-icons-custom">
             <a href="https://www.instagram.com/valve_gearbox?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><span class="icon icon-custom ion-social-instagram"></span></a>
@@ -476,7 +509,7 @@
           <div class="social-icons-custom">
             <a href="https://twitter.com/transtork" target="_blank"><span class="icon icon-custom ion-social-youtube"></span></a>
           </div>
-        </div>
+        </div> -->
         <!-- <div class="social-custom">
           <div class="social-icons-custom">
             <a href="https://business.google.com/dashboard/l/04822513641521307803?gmbsrc=ww-ww-ot-gs-z-gmb-l-z-h~z-ogb-u" target="_blank"><span class="icon icon-custom ion-social-google"></a></span>

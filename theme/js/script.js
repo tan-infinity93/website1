@@ -140,3 +140,19 @@ $(document).ready(function () {
 	});
 
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+	const dropdownLink = document.querySelector('.dropdown-toggle');
+
+	dropdownLink.addEventListener('click', function(e) {
+	  const isDropdownOpen = this.getAttribute('aria-expanded') === 'true';
+
+	  // Prevent default href navigation if the dropdown is closed
+	  if (!isDropdownOpen) {
+	    e.preventDefault();
+	    window.location.href = this.href;  // Open the link as a normal link
+	  }
+	});
+});
+
+

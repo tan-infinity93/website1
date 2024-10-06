@@ -2731,15 +2731,54 @@ ul.dropdown-menu li {
 }
 
 .container-mission-custom {
-  margin-bottom: -35px !important;
+  margin-top: -2.5% !important;
+  margin-bottom: -7.5% !important;
 }
 
 .container-certifications-custom {
-  margin-bottom: 1em !important;
+  margin-top: -2.5% !important;
+  margin-bottom: -2.5% !important;
+}
+
+.container-vision-custom {
+  margin-top: -3.0% !important;
+  margin-bottom: -3.0% !important;
+}
+
+.container-company-intro-custom {
+  margin-top: -1.5% !important;
+  margin-bottom: -1.5% !important;
+}
+
+.container-portfolio-custom {
+  margin-top: -1.5% !important;
+  margin-bottom: -18.5% !important;
+}
+
+.index-img {
+  border: 0.5px solid black;
+}
+
+.service-img-2 {
+  height: 50% !important;
+}
+
+.btn-service-modal {
+  background-color: #1A6772;
+  color: #ffffff;
+  border-radius: 35px !important;
+  padding: 15px !important;
 }
 
 .certifications-text {
   padding-top: 2.5em;
+}
+
+.center-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 7.5em;
 }
 
 .red-text-black-bg {
@@ -2760,7 +2799,51 @@ ul.dropdown-menu li {
   font-size: 18.5px !important;
 }
 
+.read-more-red-text-2 {
+  background-color: transparent;
+  color: #FF2525 !important;
+  font-size: 18.5px !important;
+  box-shadow: none !important;
+  border: none !important;
+  outline: none;
+  padding: 0; /* Remove padding */
+  margin: -10px; /* Remove margin */  
+}
+
+.read-more-red-text-2:focus, .read-more-red-text-2:active {
+  background-color: transparent;
+  color: #000000 !important;
+  outline: none; /* Ensure no outline on focus */
+  box-shadow: none; /* Remove any box-shadow on focus (optional) */
+  margin: -10px;
+  padding: 0;
+}
+
+.read-more-red-text-3 {
+  background-color: transparent;
+  color: #FF2525 !important;
+  font-size: 18.5px !important;
+  box-shadow: none !important;
+  border: none !important;
+  outline: none;
+  padding: 0; /* Remove padding */
+  margin: -10px; /* Remove margin */  
+}
+
+.read-more-red-text-3:focus, .read-more-red-text-3:active {
+  background-color: transparent;
+  color: #ffffff !important;
+  outline: none; /* Ensure no outline on focus */
+  box-shadow: none; /* Remove any box-shadow on focus (optional) */
+  margin: -10px;
+  padding: 0;
+}
+
 .black-text {
+  color: #000000 !important;
+}
+
+.black-text-dark-grey {
   color: #3e3e3e !important;
 }
 
@@ -2812,8 +2895,8 @@ ul.dropdown-menu li {
 }
 
 .red-text-black-bg-btn {
-  background-color: #3e3e3e !important;
-  color: #FF2525 !important;
+  background-color: #0d6efd !important;
+/*   color: #FF2525 !important; */
   border-radius: 30px !important;
 }
 
@@ -2828,7 +2911,10 @@ ul.dropdown-menu li {
 /*   background-color: #f1f1f1; */
 /*  color: #FF2525;*/
 /*   color: #ffffff; */
-  padding: 1.0vw;
+  padding-top: 5.5vh;
+  padding-left: 1.5vh;
+  padding-right: 1.5vh;
+  padding-bottom: 1.5vh;
 }
 
 .li-footer-custom > a, .copyright-custom {
@@ -2869,14 +2955,14 @@ ul.dropdown-menu li {
   /* width: 75px !important;
   height: 75px !important; */
   border-radius: 50%  !important;
-  background-color: #ffffff;
-  color: #1B6873;
-  box-shadow: 10px 10px lightgrey;
+  /* background-color: #ffffff;
+  color: #1B6873; */
+/*   box-shadow: 10px 10px lightgrey; */
 /*  text-align: center !important;*/
 }
 
 .icon-custom {
-  font-size: 1.80em;
+  font-size: 1.25em;
   display: inline-block;
 }
 
@@ -2998,6 +3084,18 @@ ul.dropdown-menu li {
 
 .section-title-x {
   margin-bottom: -10% !important;
+}
+
+.section-title-x-2 h2 {
+  margin-top: 2% !important;
+  margin-bottom: 5% !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 28px;
+}
+
+.service-form {
+  padding: 3%;
 }
 
 .project-details-header {
